@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Museo Nacional</string>
+    <string name="exhibiciones">Ver Exhibiciones</string>
+    <string name="agregarExpo">Ingresar Exhibición</string>
+    <string name="modExpo">Modificar Exhibición</string>
+    <string name="Agregar">Agregar una Exhibición</string>
+    <string name="ingresar">Agregar</string>
+    <string name="nombreExpo">Nombre Exhibición</string>
+    <string name="descripcionExpo">Descripción</string>
+    <string-array name="exhibiciones">
+        <item>Inicio</item>
+        <item>Quienes Somos</item>
+        <item>Exibiciones</item>
+        <item>Educación</item>
+    </string-array>
+    <string-array name="tipoExpo">
+        <item>Flora</item>
+        <item>Fauna</item>
+        <item>Ecosistema</item>
+        <item>Historia</item>
+    </string-array>
+</resources>

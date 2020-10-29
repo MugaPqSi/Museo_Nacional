@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IngresarExpo">
+
+    <TextView
+        android:id="@+id/IngresarTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/Agregar" />
+
+    <EditText
+        android:id="@+id/ingresarNombreTxt"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/nombreExpo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ingresarDescTxt"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/descripcionExpo"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/tipoSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:entries="@array/tipoExpo" />
+
+    <Button
+        android:id="@+id/enviarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:onClick="ingresarExhibicion"
+        android:text="@string/ingresar" />
+
+
+
+</LinearLayout>
